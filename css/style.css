@@ -1,10 +1,12 @@
 html, body {
     height: 100%;
     margin: 0;
+    
 }
 
 body {
     display: flex;
+    background-color: rgb(180, 192, 199);
 }
 
 header {
@@ -17,6 +19,43 @@ main {
     margin: 0 auto;
 }
 
+h1 {
+    color: rgb(54, 98, 241);
+    font-size: 4rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    transition: 0.4s;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    font-size: 2rem;
+    border-radius: 50%;
+    font-size: 1rem;
+    font-weight: bolder;
+    outline: 2px solid rgb(54, 98, 241);
+    background-color: rgb(220, 235, 245);
+}
+
+button:hover {
+    cursor: pointer;
+    color: rgb(54, 98, 241);
+    border-radius: 50%;
+    font-weight: bolder;
+    outline: 2px solid rgb(54, 98, 241);
+    background-color: rgb(220, 235, 245);
+}
+
+input {
+    text-decoration: none;
+    width: 75%;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: rgb(54, 98, 241);
+    outline: 2px solid rgb(54, 98, 241);
+    background-color: rgb(220, 235, 245);
+}
+
 .inputbox {
     display: flex;
     justify-content: center;
@@ -27,8 +66,12 @@ main {
 }
 
 #message {
+    color: rgb(54, 98, 241);
     height: 14rem;
     overflow-y: hidden;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 1.25rem;
 }
 #message > p {
     word-break: break-all;
